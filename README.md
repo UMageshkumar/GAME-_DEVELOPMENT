@@ -1,8 +1,8 @@
 # EX 4 : ELLIPSE DRAWING ALGORITHM
 
-NAME : MOHAMED NIZAMUDDIN A
+NAME : U MAGESHKUMAR
 
-REG NO: 212224040194
+REG NO: 212224240085
 
 **AIM :**
 
@@ -38,7 +38,7 @@ Step 7 : stop.
 **Program :**
 
 ```
-#include "stdio.h" 
+#include "stdio.h"
 #include "conio.h" 
 #include "math.h" 
 #include "graphics.h" 
@@ -81,8 +81,8 @@ x=0;
  
  
  
-p=(ry1*(x+0.5)*(x+0.5)+rx1*(y-1)*(y-1)-rx1*ry1);
-while(y>0)
+p=(ry1*(x+0.5)*(x+0.5)+rx1*(y-1)*(y-1)-rx1*ry1); 
+ while(y>0) 
   { 
    y=y-1; 
    py=py-rx2; 
@@ -107,16 +107,16 @@ int plotpoints(int xcenter,int ycenter,int x,int y)
   putpixel(xcenter+x,ycenter+y,6); 
   putpixel(xcenter-x,ycenter+y,6); 
   putpixel(xcenter+x,ycenter-y,6); 
-  putpixel(xcenter-x,ycenter-y,6);
+  putpixel(xcenter-x,ycenter-y,6); 
   return 0;
- 
 }
 ```
 
 
 **Output :**
 
-![ellipsegamedevlopment](https://github.com/user-attachments/assets/51b06629-23d3-4109-91e3-f236dba53d95)
+![Screenshot (33)](https://github.com/user-attachments/assets/dc27221e-23b3-4373-b6c3-b77fdc6123bc)
+
 
 
 **Result :**
